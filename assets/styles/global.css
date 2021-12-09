@@ -1,0 +1,110 @@
+html {
+  --color-green: #00C853;
+  --blue: #004798;  
+  --blue-ligth: #2CC3FF;
+  --green-ligth: #BDECC4;
+  --grey: #EEEEEE;
+  --white:#FFFFFF;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Segoe UI, sans-serif;
+}
+
+.grey {
+  color: #9E9E9E;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.black {
+  color: #383434;
+}
+
+.small-text, .light-text{
+  font-weight: 300; 
+  line-height:2.1rem;
+  opacity:1;
+}
+
+.small-text{
+  font-size: 1.4rem;
+}
+
+.light-text{
+  font-size: 1.6rem;
+}
+
+td {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.btn-button {
+  width: 239px;
+  height: 50px;
+  background:#00C853;
+  border-radius: 5px;
+  border: none;
+  color:#FFFFFF;
+  font-size: 1.6rem;
+  font-weight:bold;
+
+}
+
+.link-button {
+  width: 500px;
+  height: 60px;
+  display: table;
+  background:#00C853;
+  border-radius: 5px;
+  border: none;
+  color:#FFFFFF;
+  font-size: 1.6rem;
+  font-weight:bold;
+  margin-top: 30px;
+  /* align-items: center; */
+  text-align:center;  
+  justify-content:center;
+}
+
+.link-button a {
+  text-decoration:none;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle; 
+  padding-left:30px;
+}
+
+.link-button a:nth-child(2) {
+  padding-right:30px;
+}
+
+.model-wraper {
+  max-width: 600px;
+  border: 1px solid #757575;
+  border-radius: 5px;
+
+}
+.header {
+  max-width:85%;
+  margin:0 auto;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+#cart {
+  width:32px;
+  height: 25px;
+}
